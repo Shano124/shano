@@ -1,39 +1,143 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    --gradient: linear-gradient(-45deg, #ff9a9e, #fc3802,#8fc00a, #0256b6, #201dd1, #86eb03);
+    color: #000000;
+
 }
 
-header{
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url("ari-w9500.ttf") format("truetype");
+}
+
+body {
+    font-family: 'MyCustomFont', Arial, sans-serif;
+    background-color: #fcf8f8;
+    background-image: var(--gradient);
+    animation: gradientAnimation 10s ease infinite;
+    background-size: 400%;
+
+}
+@keyframes gradientAnimation {
+    0% {
+       background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+       background-position: left;
+    }
+    
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     top: 0;
     position: sticky;
-    background-color: #fff;
+    background-color:transparent;
 }
-header h1{
+
+header h1 {
     font-size: 24px;
     color: #333;
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
     color: #333;
     margin-left: 20px;
     font-size: 18px;
 }
-section{
+
+section {
     padding: 20px;
     height: 300px;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color:transparent;
     color: #fff;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.project {
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    height: 250px;
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+#projects{
+    height: auto;
+
+   
+}
+#projects h2 {
+    margin: 30px;
+}
+.project img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+
+}
+#home {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.button-container button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+}
+#about {
+    height: auto;
+    width: 100%;
+}
+#contact {
+    height: auto;
+    width: 100%;
+}
+.project h3 {
+    color: #333;
 }
