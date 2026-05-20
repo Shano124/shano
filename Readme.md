@@ -1,4 +1,4 @@
-#Shano Portfolio Website
+# Shano Portfolio Website
 
 A modern and minimal personal portfolio website created to showcase web development projects, indie game development work, and creative skills. This website highlights personal branding, featured projects, and professional links in a clean and user-friendly interface.
 
@@ -8,7 +8,7 @@ This portfolio website was designed for Shano V.B, a web developer and indie gam
 
 The design focuses on simplicity, readability, and modern aesthetics using a soft gradient background, rounded containers, and project showcase cards.
 
-##🎯 Features
+## 🎯 Features
 Clean and modern UI design
 Responsive portfolio layout
 Navigation bar with multiple sections
@@ -19,13 +19,13 @@ Stylish gradient background
 Beginner-friendly structure
 Professional portfolio presentation
 📂 Sections Included
-##🏠 Home
+## 🏠 Home
 
 Introduces the developer and provides a short overview of skills and interests.
 
-##👨‍💻 About
+## 👨‍💻 About
 
-##Highlights experience in:
+## Highlights experience in:
 
 HTML
 CSS
@@ -35,7 +35,7 @@ Godot Game Engine
 
 Also mentions the indie game studio Zelthryan.
 
-##🚀 Projects
+## 🚀 Projects
 
 Featured projects include:
 
@@ -54,7 +54,7 @@ Source Code button
 
 Provides professional and social links for collaboration and networking.
 
-🎨 Design Style
+## 🎨 Design Style
 
 The interface uses:
 
@@ -67,7 +67,7 @@ Clean navigation structure
 
 The overall appearance creates a professional and creative portfolio experience.
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 Planned upgrades for the portfolio include:
 
@@ -80,9 +80,11 @@ Interactive project previews
 Blog section
 Contact form integration
 Firebase backend support
-🕹️ Indie Studio
 
-##This portfolio also represents the indie game studio:
+
+# 🕹️ Indie Studio
+
+## This portfolio also represents the indie game studio:
 
 Zelthryan
 
@@ -102,12 +104,12 @@ Build an online presence
 Display personal projects
 Connect with collaborators
 Present indie studio work professionally
-👤 Author
+# 👤 Author
 
 Shano V.B
 Web Developer & Indie Game Developer
 Founder of Zelthryan Studio
 
-##📜 License
+## 📜 License
 
 This project is open for learning, inspiration, and portfolio development purposes.
